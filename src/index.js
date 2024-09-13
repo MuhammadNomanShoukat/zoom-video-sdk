@@ -77,8 +77,8 @@ app.post('/', (req, res) => {
     user_identity: userIdentity,
     session_key: sessionKey,
     geo_regions: joinGeoRegions(geoRegions),
-    cloud_recording_option: cloudRecordingOption,
-    cloud_recording_election: cloudRecordingElection,
+    cloud_recording_option: 1,
+    cloud_recording_election: 1,
     audio_compatible_mode: audioCompatibleMode
   }
 
